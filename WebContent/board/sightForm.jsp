@@ -26,6 +26,8 @@ main {
 }
 </style>
 
+
+
 <main class="main">
 	<div id="carouselExampleCaptions" class="carousel slide"
 		data-ride="carousel">
@@ -37,7 +39,7 @@ main {
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="용두산.jpg" class="d-block w-100">
+				<img src="images/용두산.jpg" class="d-block w-100">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>누가봐도 용두산 ㅇㅈ?</h5>
 					<p>아무리봐도 용두산이지롱~</p>
@@ -47,14 +49,14 @@ main {
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="찐광안리.jpg" class="d-block w-100">
+				<img src="images/찐광안리.jpg" class="d-block w-100">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>이게 찐 광안리지</h5>
 					<p>광안리 가고 싶다... 데이트하러 가야하는데</p>
 				</div>
 			</div>
 			<div class="carousel-item">
-				<img src="찐막해운대.jpg" class="d-block w-100">
+				<img src="images/찐막해운대.jpg" class="d-block w-100">
 				<div class="carousel-caption d-none d-md-block">
 					<h5>오호... 해운대</h5>
 					<p>해운대 안 간지 오래됐네 해운대도 가고싶네</p>
@@ -69,19 +71,23 @@ main {
 	</div>
 </main>
 
-<form class="s003">
+    
+<div>
+ <div class="s003">
+
+ 
+      <form>
         <div class="inner-form">
+
           <div class="input-field first-wrap">
+
             <div class="input-select">
               <select data-trigger="" name="choices-single-defaul">
-                <option placeholder="">Category</option>
-                <option>New Arrivals</option>
-                <option>Sale</option>
-                <option>Ladies</option>
-                <option>Men</option>
-                <option>Clothing</option>
-                <option>Footwear</option>
-                <option>Accessories</option>
+                <option placeholder="">카테고리</option>
+                <option>자연</option>
+                <option>역사</option>
+                <option>문화</option>
+                <option>공원</option>
               </select>
             </div>
           </div>
@@ -97,6 +103,107 @@ main {
           </div>
         </div>
       </form>
-	
+    </div>
+    </div>
+    <!-- 검색 바 end -->
+    
+    <main id="main">
+		<!-- ======= Blog Grid ======= -->
+		<div id="journal-blog" class="text-left  paddsections">
+
+			<div class="container">
+				<div class="section-title text-center">
+					<h2>명소</h2>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="journal-block">
+					<div class="row">
+
+						<div class="col-lg-4 col-md-6">
+							<div class="journal-info mb-30">
+
+								<a href="index.jsp"><img
+									src="images/용두산.jpg" class="img-responsive"
+									alt="img"></a>
+
+								<div class="journal-txt">
+
+									<h4>
+										<a href="blog-single.html">SO LETS MAKE THE MOST IS
+											BEAUTIFUL</a>
+									</h4>
+									<p class="separator">To an English person, it will seem
+										like simplified English</p>
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6">
+							<div class="journal-info mb-30">
+
+								<a href="blog-single.html"><img
+									src="images/용두산.jpg" class="img-responsive"
+									alt="img"></a>
+
+								<div class="journal-txt">
+
+									<h4>
+										<a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a>
+									</h4>
+									<p class="separator">To an English person, it will seem
+										like simplified English</p>
+
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-6">
+							<div class="journal-info mb-30">
+
+								<a href="blog-single.html"><img
+									src="images/용두산.jpg" class="img-responsive"
+									alt="img"></a>
+
+								<div class="journal-txt">
+
+									<h4>
+										<a href="blog-single.html">NEW LIFE CIVILIZATIONS TO
+											BOLDLY</a>
+									</h4>
+									<p class="separator">To an English person, it will seem
+										like simplified English</p>
+
+								</div>
+
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- End Blog Grid -->
+
+	</main>
+	<!-- End #main -->
+    
+    <%@ include file="../layout/footer.jsp"%>
+    
+	<script src="../search/js/extention/choices.js"></script>
+    <script>
+      const choices = new Choices('[data-trigger]',
+      {
+        searchEnabled: false,
+        itemSelectText: '',
+      });
+
+    </script>
 </body>
 </html>

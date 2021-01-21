@@ -76,14 +76,46 @@
 
 <!-- searchbar -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="author" content="colorlib.com">
-<link href="https://fonts.googleapis.com/css?family=Poppins"
-	rel="stylesheet" />
-
-<link href="../user/css/main.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="author" content="colorlib.com">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+    <link href="../search/css/main.css" rel="stylesheet" />
 <!-- searchbar end -->
+
+<!-- header -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link
+	href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i"
+	rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+<!-- header -->
+
+<!-- 명소 리스트 -->
+<!-- Google Fonts -->
+<link
+	href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+	rel="stylesheet">
+
+<!-- Vendor CSS Files -->
+<link href="sightlist/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
+<link href="sightlist/vendor/hover/hover.min.css" rel="stylesheet">
+<link href="sightlist/vendor/ionicons/css/ionicons.min.css"
+	rel="stylesheet">
+<link href="sightlist/vendor/boxicons/css/boxicons.min.css"
+	rel="stylesheet">
+<link href="sightlist/vendor/venobox/venobox.css" rel="stylesheet">
+<link href="sightlist/vendor/owl.carousel/assets/owl.carousel.min.css"
+	rel="stylesheet">
+
+<!-- Template Main CSS File -->
+<link href="sightlist/css/style.css" rel="stylesheet">
+<!-- 명소 리스트 end -->
 
 <!-- footer style -->
 <style>
